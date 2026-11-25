@@ -1,0 +1,14 @@
+# build output
+cache/
+build/
+build-*/
+dist/
+*.deb
+
+# node
+node_modules/
+
+# mac / editor noise
+.DS_Store
+.vscode/
+.idea/
