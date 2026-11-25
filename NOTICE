@@ -1,0 +1,36 @@
+DeepSeek Harness Desktop — third-party notice
+=============================================
+
+This repository contains the desktop shell and packaging scripts for an
+UNOFFICIAL Linux desktop build of DeepSeek Harness. It is not affiliated
+with, endorsed by, or supported by DeepSeek.
+
+The .deb packages produced by these scripts bundle the following software,
+each under its own license:
+
+  * DeepSeek Harness (agent engine, @deepseek-ai/dsh and friends)
+      Copyright (c) 2026 DeepSeek
+      MIT License — https://github.com/deepseek-ai/deepseek-harness
+      Source: published npm packages (npm i -g @deepseek-ai/dsh)
+
+  * Electron
+      Copyright (c) Electron contributors, Copyright (c) 2013-2020 GitHub Inc.
+      MIT License — https://github.com/electron/electron
+
+  * Node.js
+      Copyright Node.js contributors, Copyright Joyent, Inc. and other Node
+      contributors. MIT License — https://github.com/nodejs/node
+
+  * sharp / libvips, koffi, sherpa-onnx, ripgrep and other native modules
+      shipped inside the DeepSeek Harness dependency tree keep their own
+      licenses; the full texts are present in their respective
+      node_modules/<pkg>/LICENSE files inside the installed package.
+
+The license texts are installed to /usr/share/doc/deepseek-harness-desktop/
+as LICENSE.dsh, LICENSE.electron, LICENSE.node and LICENSE.shell.
+
+The desktop shell in this repository (src/main.js, src/splash.html,
+src/launch.sh) is licensed under the MIT License, see LICENSE.
+
+No DeepSeek API credentials, tokens or user profiles are included in this
+repository or in the produced packages.
