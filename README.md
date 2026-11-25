@@ -1,5 +1,7 @@
 # DeepSeek Harness Desktop for Linux
 
+**简体中文** · [English](README.en.md)
+
 在 Linux 上**双击就能用**的 DeepSeek Harness 桌面版，打包成单个 `.deb` 安装包，支持 **amd64 (x86-64)** 和 **arm64**。
 
 > ⚠️ **非官方项目。** 引擎（DeepSeek Harness）由 DeepSeek 官方开发并开源，本仓库只提供「桌面外壳 + 打包脚本」。详见 [NOTICE](NOTICE)。
