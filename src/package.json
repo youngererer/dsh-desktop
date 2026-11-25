@@ -1,0 +1,8 @@
+{
+  "name": "dsh-desktop",
+  "productName": "DeepSeek Harness",
+  "version": "1.0.0",
+  "description": "Desktop shell for DeepSeek Harness (starts dsh web and opens it in a native window)",
+  "main": "main.js",
+  "private": true
+}
