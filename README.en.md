@@ -1,5 +1,7 @@
 # DeepSeek Harness Desktop for Linux
 
+[简体中文](README.md) · **English**
+
 A **double-click-to-run** desktop build of DeepSeek Harness for Linux, packaged as a single `.deb` for **amd64 (x86-64)** and **arm64**.
 
 > ⚠️ **Unofficial project.** The engine (DeepSeek Harness) is developed and open-sourced by DeepSeek. This repository only provides the desktop shell and packaging scripts. See [NOTICE](NOTICE).
